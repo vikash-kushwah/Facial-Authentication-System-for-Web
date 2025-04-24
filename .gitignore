@@ -1,0 +1,33 @@
+# .gitignore
+
+# Node modules and build output
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*
+
+# Logs
+*.log
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# Reference repos and other non-essential folders
+reference-repo/
+*.tar.gz
+
+# Test output
+coverage/
+.nyc_output/
+
+attached_assets
+.replit
